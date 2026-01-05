@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        serif: ['Playfair Display', 'serif'],
+        script: ['Dancing Script', 'cursive'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -56,6 +60,12 @@ export default {
           "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
+        },
+        love: {
+          pink: "hsl(var(--love-pink))",
+          coral: "hsl(var(--love-coral))",
+          blush: "hsl(var(--love-blush))",
+          rose: "hsl(var(--love-rose))",
         },
       },
       borderRadius: {
